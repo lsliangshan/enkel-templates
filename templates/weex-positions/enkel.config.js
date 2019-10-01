@@ -1,13 +1,14 @@
 module.export = {
+  description: 'weex模板-职位列表',
   placeholder: {
     $$TEMPLATE_TITLE$$: {
-      desc: '标题'
+      description: '标题'
     },
     $$TEMPLATE_HD_BG$$: {
-      desc: '头图背景'
+      description: '头图背景'
     },
     $$TEMPLATE_HD_CT$$: {
-      desc: '头图'
+      description: '头图'
     }
   }
 }
