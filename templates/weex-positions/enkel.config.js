@@ -1,4 +1,4 @@
-module.export = {
+module.exports = {
   description: 'weex模板-职位列表',
   placeholder: {
     $$TEMPLATE_TITLE$$: {
