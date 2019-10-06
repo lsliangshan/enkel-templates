@@ -7,5 +7,5 @@ import { doGet } from '../base'
  */
 export function whoami (args) {
   console.log('I am domain $$QY$$')
-  return doGet(args, 'whoami', APIS)
+  return 'I am domain $$QY$$' // doGet(args, 'whoami', APIS)
 }
