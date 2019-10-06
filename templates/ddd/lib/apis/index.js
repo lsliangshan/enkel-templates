@@ -1,5 +1,5 @@
-import * as user from './user'
+import * as $$qy$$ from './$$qy$$'
 
 export {
-  user
+  $$qy$$
 }

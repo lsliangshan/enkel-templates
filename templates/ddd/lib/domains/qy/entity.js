@@ -1,22 +1,22 @@
-import { userStore, getItem } from '../../utils/localforage'
+import { $$qy$$Store, getItem } from '../../utils/localforage'
 
-export function getUserInfo () {
+export function get$$Qy$$Info (key) {
   return new Promise(async (resolve) => {
     await getItem({
       key: key,
-      store: userStore
+      store: $$qy$$Store
     }).then(data => {
       resolve(data)
     })
   })
 }
 
-export function setUserInfo (key, data, expiredAt) {
+export function set$$Qy$$Info (key, data, expiredAt) {
   return new Promise(async (resolve) => {
     await setItem({
       key: key,
       expiredAt: expiredAt || 1 * 60 * 60 * 1000,
-      store: userStore,
+      store: $$qy$$Store,
       data: data
     })
     resolve(true)

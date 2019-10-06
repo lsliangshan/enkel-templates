@@ -1,10 +1,7 @@
 import localforage from 'localforage'
 import process from 'process'
 
-export const userStore = localforage.createInstance({
-  name: "zpm",
-  storeName: 'user'
-})
+const storeName = 'qy'
 
 function getLocalforageKey (args) {
   /**
@@ -124,3 +121,8 @@ export function removeItem (args) {
     }
   })
 }
+
+// export const userStore = localforage.createInstance({
+//   name: storeName,
+//   storeName: 'user'
+// })

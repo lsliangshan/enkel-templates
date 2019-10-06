@@ -1,8 +1,8 @@
 export const APIS = {
   baseUrl: 'http://api.example.com',
-  login: '/path/to/login'
+  login: '/path/to/whoami'
 }
 
 export const LOCAL_KEYS = {
-  userInfo: 'local-user-info'
+  whoami: 'local-whoami'
 }

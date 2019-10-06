@@ -1,9 +1,9 @@
-import * as constants from './user'
+import * as constants from './$$qy$$'
 
-const userConstants = {
+const $$qy$$Constants = {
   ...constants
 }
 
 export {
-  userConstants
+  $$qy$$Constants
 }

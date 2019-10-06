@@ -1,4 +1,4 @@
-export function userTranslator ({
+export function $$qy$$Translator ({
   username,
   phonenum,
   nickname,

@@ -1,4 +1,4 @@
-# inig-3d
+# $$PROJECT_NAME$$
 
 ## Project setup
 ```
