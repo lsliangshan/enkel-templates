@@ -6,6 +6,6 @@ import { doGet } from '../base'
  * @param {*} args 
  */
 export function whoami (args) {
-  console.log('I am QY')
+  console.log('I am domain $$QY$$')
   return doGet(args, 'whoami', APIS)
 }
