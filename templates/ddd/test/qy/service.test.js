@@ -18,7 +18,7 @@ INIG({
 /**
  * whoami
  */
-describe('whoami', function () {
+describe('【$$QY$$】- whoami', function () {
   it('1. 空参数', () => {
     return $$Qy$$.whoami().then(() => {
       assert(false)
