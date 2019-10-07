@@ -1,29 +1,36 @@
 # $$PROJECT_NAME$$
 
-## Project setup
+## 安装依赖
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
+## 运行单元测试
 ```
 yarn run test
 ```
 
-### Lints and fixes files
+## 使用
+
+### 1. 初始化
 ```
-yarn run lint
+import { INIG } from '$$PROJECT_NAME$$'
+
+INIG({
+  options: {
+    // 公共参数
+  },
+  isServer: false, // 是否为服务端渲染环境
+  isTest: false // 是否为测试环境
+})
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 2. 按需导入方法
+```
+import { METHOD_NAME } from '$$PROJECT_NAME$$'
+```
+
+### 3. 调用方法
+```
+METHOD_NAME()
+```
