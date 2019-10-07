@@ -1,5 +1,9 @@
 # $$PROJECT_NAME$$
 
+#### $$PROJECT_NAME$$ 用函数调用的方式请求接口
+
+> Happy Business 
+
 ## 安装依赖
 ```
 yarn install
