@@ -31,7 +31,11 @@ INIG({
 
 ### 2. 按需导入方法
 ```
-import { METHOD_NAME } from '$$PROJECT_NAME$$'
+/**
+ * DOMAIN_NAME: 领域名称
+ * METHOD_NAME: 领域中的方法名
+ */
+import { METHOD_NAME } from '$$PROJECT_NAME$$/lib/domains/DOMAIN_NAME/service'
 ```
 
 ### 3. 调用方法
