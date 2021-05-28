@@ -4,7 +4,7 @@ module.exports = {
     $$pluginName$$: {
       description: '插件名称'
     },
-    $$desription$$: {
+    $$description$$: {
       description: '插件描述'
     },
     $$author$$: {
